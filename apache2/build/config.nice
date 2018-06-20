@@ -1,0 +1,35 @@
+#! /bin/sh
+#
+# Created by configure
+
+CC="gcc"; export CC
+CFLAGS="-I/home/lr26/prestashop-1.7.3.3-0/common/include -fPIC -m64"; export CFLAGS
+CPPFLAGS="-I/home/lr26/prestashop-1.7.3.3-0/common/include"; export CPPFLAGS
+LDFLAGS="-L/home/lr26/prestashop-1.7.3.3-0/common/lib -liconv"; export LDFLAGS
+"./configure" \
+"--prefix=/home/lr26/prestashop-1.7.3.3-0/apache2" \
+"--enable-so" \
+"--enable-mods-shared=most" \
+"--disable-auth_dbm" \
+"--without-berkeley-db" \
+"--enable-deflate" \
+"--enable-ssl" \
+"--with-ssl=/home/lr26/prestashop-1.7.3.3-0/common" \
+"--enable-proxy" \
+"--enable-proxy-http" \
+"--enable-proxy-balancer" \
+"--enable-rewrite" \
+"--with-ldap" \
+"--enable-authnz-ldap" \
+"--enable-ldap" \
+"--with-apr=/home/lr26/prestashop-1.7.3.3-0/common/bin/apr-1-config" \
+"--with-apu=/home/lr26/prestashop-1.7.3.3-0/common/bin/apr-1-config" \
+"--with-pcre=/home/lr26/prestashop-1.7.3.3-0/common/bin/pcre-config" \
+"--enable-mpms-shared=all" \
+"--with-nghttp2=/home/lr26/prestashop-1.7.3.3-0/common/lib" \
+"--with-mpm=prefork" \
+"CC=gcc" \
+"CFLAGS=-I/home/lr26/prestashop-1.7.3.3-0/common/include -fPIC -m64" \
+"LDFLAGS=-L/home/lr26/prestashop-1.7.3.3-0/common/lib -liconv" \
+"CPPFLAGS=-I/home/lr26/prestashop-1.7.3.3-0/common/include" \
+"$@"

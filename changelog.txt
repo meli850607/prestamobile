@@ -1,0 +1,343 @@
+============ CHANGELOG =============
+
+Version 1.7.3.3-0      2018-05-29
+* Updated PageSpeed to 1.13.35.2
+* Updated phpMyAdmin to 4.8.1
+* Updated PrestaShop to 1.7.3.3
+* Updated SQLite to 3.18.0
+
+Version 1.7.3.2-0      2018-05-06
+* Updated MySQL to 5.7.22
+* Updated PHP to 7.0.30
+* Updated phpMyAdmin to 4.8.0.1
+* Updated PrestaShop to 1.7.3.2
+
+Version 1.7.3.1-0      2018-04-10
+* Updated Apache to 2.4.33
+* Updated OpenSSL to 1.0.2o
+* Updated PHP to 7.0.29
+* Updated phpMyAdmin to 4.8.0
+* Updated PrestaShop to 1.7.3.1
+
+Version 1.7.3.0-1      2018-03-18
+* Added support for Stackman
+* Updated PHP to 7.0.28
+* Updated phpMyAdmin to 4.7.9
+
+Version 1.7.3.0-0      2018-03-01
+* Updated PrestaShop to 1.7.3.0
+* Updated MySQL to 5.7.21
+* Updated PHP to 7.0.27
+* Updated phpMyAdmin to 4.7.8
+
+Version 1.7.2.5-0      2018-02-28
+* Generate the SSL certificates at installation time
+(boot time in the cloud images and virtual machines)
+* Updated MySQL to 5.7.21
+* Updated PHP to 7.0.27
+* Updated phpMyAdmin to 4.7.8
+* Updated PrestaShop to 1.7.2.5
+
+Version 1.7.2.4-2      2018-01-11
+* Updated OpenSSL to 1.0.2n
+* Updated PHP to 7.0.26
+* Updated phpMyAdmin to 4.7.7
+
+Version 1.7.2.4-1      2017-11-10
+* Add PrestaShop bnsupport metadata
+* Add bnsupport tool
+* Updated Apache to 2.4.29
+* Updated MySQL to 5.7.20
+* Updated OpenSSL to 1.0.2m
+* Updated PHP to 7.0.25
+
+Version 1.7.2.4-0      2017-10-24
+* Updated OpenSSL to 1.0.2l
+* Updated PrestaShop to 1.7.2.4
+
+Version 1.7.2.3-1      2017-10-18
+* Fixed issue when uploading images in Windows
+* Updated Apache to 2.4.28
+* Updated PHP to 7.0.24
+
+Version 1.7.2.3-0      2017-10-10
+* Updated PHP to 7.0.23
+* Updated PrestaShop to 1.7.2.3
+
+Version 1.7.2.2-0      2017-09-05
+* Updated PrestaShop to 1.7.2.2
+
+Version 1.7.2.1-2      2017-08-30
+* Updated MySQL to 5.7.19
+* Updated phpMyAdmin to 4.7.4
+
+Version 1.7.2.1-1      2017-08-24
+* Updated PHP to 7.0.22
+
+Version 1.7.2.1-0      2017-08-17
+* Updated MySQL to 5.6.37
+* Updated phpMyAdmin to 4.7.3
+* Updated PrestaShop to 1.7.2.1
+
+Version 1.7.1.2-1      2017-07-19
+* Fix Prestashop Webservice issue
+* Updated phpMyAdmin to 4.7.2
+* Updated Apache to 2.4.27
+* Updated PHP to 5.6.31
+
+Version 1.7.1.2-0      2017-07-10
+* Updated Prestashop to 1.7.1.2
+* Updated phpMyAdmin to 4.7.1
+* Fix sudo vulnerability (CVE-2017-1000367)
+* Updated OpenSSL to 1.0.2l
+* Updated MySQL to 5.6.36
+
+Version 1.7.1.1-0      2017-04-28
+* Updated Prestashop to 1.7.1.1
+
+Version 1.7.1.0-0      2017-04-11
+* Updated Prestashop to 1.7.1.0
+* Updated phpMyAdmin to 4.7.0
+* Updated OpenSSL to 1.0.2k (Security fixes for CVE-2017-3731, CVE-2017-3731, CVE-2017-3731, and CVE-2016-7055)
+* Updated PHP to 5.6.30
+
+Version 1.7.0.4-1      2017-01-18
+* Fixed issue in OS X
+
+Version 1.7.0.4-0      2017-01-10
+* Updated PrestaShop to 1.7.0.4
+* Updated Apache to 2.4.25
+
+Version 1.7.0.3-0      2016-12-22
+* Updated PrestaShop to 1.7.0.3
+* Updated MySQL to 5.6.35
+* Updated PHP to 5.6.29
+* Updated phpMyAdmin to 4.6.5.2
+
+Version 1.7.0.2-0      2016-11-29
+* Updated PrestaShop to 1.7.0.2
+* Updated phpMyAdmin to 4.6.5.1
+
+Version 1.6.1.9-0      2016-11-18
+* Updated Prestashop to 1.6.1.9
+* Updated PHP to 5.6.28
+
+Version 1.6.1.8-0      2016-11-04
+* Updated Prestashop to 1.6.1.8
+* Updated PHP to 5.6.27
+* Updated MySQL to 5.6.34
+
+Version 1.6.1.7-1      2016-09-29
+* Updated OpenSSL to 1.0.2j (Security fix CVE-2016-6304)
+* Updated MySQL to 5.6.33
+* Updated PHP to 5.6.26
+
+Version 1.6.1.7-0      2016-09-09
+* Updated phpMyAdmin to 4.6.4
+* Updated PHP to 5.6.25
+* Patched Off-Path TCP Linux Kernel Vulnerability in Cloud Images and Virtual Machines (Security release CVE-2016-5696)
+* Updated MySQL to 5.6.32
+
+Version 1.6.1.6-2      2016-07-23
+* Updated PHP to 5.6.24 (Security release: HTTP_PROXY is improperly trusted by some PHP libraries and applications)
+* Blocked Proxy request header in the web server (Security issue CVE-2016-5385, CVE-2016-5387, CVE-2016-1000110)
+* Updated Apache to 2.4.23
+* Updated phpMyAdmin to 4.6.3
+
+Version 1.6.1.6-1      2016-06-30
+* Fixed a bug in Windows related to crashing with PATH longer than 256 characters
+* Updated PHP to 5.6.23
+
+Version 1.6.1.6-0      2016-06-16
+* Updated Prestashop to 1.6.1.6
+* Updated MySQL to 5.6.31
+* Updated phpMyAdmin to 4.6.2
+* Updated PHP to 5.6.22 (Security release CVE-2016-5096, CVE-2016-5094, CVE-2013-7456, CVE-2016-5093)
+
+Version 1.6.1.5-2      2016-05-16
+* Fixed CSS issue
+
+Version 1.6.1.5-1      2016-05-11
+* Updated phpMyAdmin to 4.6.1
+* Updated PHP to 5.6.21 (Security release CVE-2016-3074)
+* Updated OpenSSL to 1.0.2h (Security release CVE-2016-2108 CVE-2016-2107)
+* Updated PageSpeed to 1.9.32.14
+
+Version 1.6.1.5-0      2016-04-14
+* Updated Prestahop to 1.6.1.5
+* Updated PHP to 5.6.20
+* Updated MySQL to 5.6.30
+* Updated Apache to 2.4.20
+
+Version 1.6.1.4-1      2016-04-11
+* Updated phpMyAdmin to 4.6.0
+* Updated PHP to 5.6.19
+* Updated OpenSSL to 1.0.2g (Security release CVE-2016-0800)
+* Updated MySQL to 5.6.29
+* Updated libpng to 1.5.26 (Security release CVE-2015-8540)
+
+Version 1.6.1.4-0      2016-01-08
+* Updated PrestaShop to 1.6.1.4
+* Updated Apache to 2.4.18
+* Updated MySQL to 5.6.28
+* Updated OpenSSL to 1.0.1q
+
+Version 1.6.1.3-0      2015-12-02
+* Updated PrestaShop to 1.6.1.3
+* Updated phpMyAdmin to 4.5.2
+
+Version 1.6.1.2-1      2015-11-17
+* Updated libpng to 1.5.24 (security issue)
+
+Version 1.6.1.2-0      2015-10-30
+* Updated PrestaShop to 1.6.1.2
+* Updated Varnish to 4.1.0
+* Updated MySQL to 5.6.27
+* Updated Apache to 2.4.17
+* Updated PHP to 5.5.29
+
+Version 1.6.1.1-0      2015-08-20
+* Updated PrestaShop to 1.6.1.1
+* Updated phpMyAdmin to 4.4.13.1
+* Updated Apache to 2.4.16
+* Updated PHP to 5.5.28
+
+Version 1.6.1.0-2      2015-07-31
+* Fix for browser launch in Windows 10 Edge browser
+
+Version 1.6.1.0-1      2015-07-10
+* Updated OpenSSL to 1.0.1p
+
+Version 1.6.1.0-0      2015-07-03
+* Updated PrestaShop to 1.6.1.0
+
+Version 1.6.0.14-2      2015-06-29
+* Fixed theme/default-bootstrap/ writable folder
+* Updated PHP to 5.5.26
+* Updated MySQL to 5.6.25
+* Updated PHP to 5.5.25
+* Updated phpMyAdmin to 4.4.7
+* Dropping RC4 from Apache SSLCipherSuite directive
+* Updated phpMyAdmin to 4.4.3
+* Updated PHP to 5.4.40
+* Updated OpenSSL to 1.0.1m
+* Updated PHP to 5.4.39
+* Included Varnish 3.0.5
+
+Version 1.6.0.14-0      2015-03-10
+* Updated PrestaShop to 1.6.0.14
+* Updated OpenSSL to 1.0.1l
+* Updated PHP to 5.4.38
+
+Version 1.6.0.13-0      2015-02-25
+* Updated PrestaShop to 1.6.0.13
+
+Version 1.6.0.12-0      2015-02-24
+* Updated PrestaShop to 1.6.0.12
+* Updated PHP to 5.4.37
+* Updated Apache to 2.4.12
+* Updated MySQL to 5.5.42 for Linux and Windows
+* Updated PageSpeed to 1.9.32.3
+* Updated phpMyAdmin to 4.3.8
+* Updated OpenSSL to 1.0.1k (Linux and OS X)
+
+Version 1.6.0.11-0      2015-01-08
+* Updated PrestaShop to 1.6.0.11
+* Updated phpMyAdmin to 4.3.3
+* Updated PHP to 5.4.36
+
+Version 1.6.0.9-1      2014-10-23
+* (Version only available for OS X)
+* Fix MySQL startup issue for OS X Yosemite
+* Updated PHP to 5.4.34
+* Updated OpenSSL to 1.0.1j
+* Added OCI8 module. It requires InstantClient 11.2.
+
+Version 1.6.0.9-1      2014-10-08
+* Updated phpMyAdmin to 4.2.9.1
+* Updated MySQL to 5.5.40
+* Signed with codesign v2
+* Updated PHP to 5.4.33
+* Updated OpenSSL to 1.0.1i
+* Updated PrestaShop to 1.6.0.9
+
+Version 1.6.0.9-0      2014-07-31
+* Updated Apache to 2.4.10
+* Updated PHP to 5.4.31
+* Updated MySQL to 5.5.38
+* Updated XDebug to 2.2.5
+* Updated XCache to 3.1.0
+* Updated mongo-php-driver to 1.5.4
+* Updated php-couchbase to 1.1.5
+* Updated Libxslt to 1.1.28
+* Updated Libxml2 to 2.9.1
+* Updated PHP to 5.4.30
+* Updated phpMyAdmin to 4.2.5
+
+Version 1.6.0.8-0      2014-06-23
+* Updated PrestaShop to 1.6.0.8
+
+Version 1.6.0.7-0      2014-06-20
+* Updated OpenSSL to 1.0.1h
+* Updated PHP to 5.4.29
+* Fixed module installation issue
+
+Version 1.6.0.6-1      2014-05-26
+* Improved http and https configuration
+* Updated phpMyAdmin to 4.2.2
+* Added libv8 and v8js PHP extension for Linux and OS X
+
+Version 1.6.0.6-0      2014-04-14
+* Updated Prestashop to 1.6.0.6
+
+Version 1.6.0.5-2      2014-04-08
+* Updated OpenSSL to 1.0.1g
+* Updated phpMyAdmin to 4.1.12
+* Improved Apache configuration for PHP-FPM mode
+* Updated Apache to 2.4.9
+
+Version 1.6.0.5-1      2014-03-26
+* Fix offline installation
+
+Version 1.6.0.5-0      2014-03-19
+* Updated Beetailer to 3.7.5
+* Updated Prestashop to 1.6.0.5
+* Updated PHP to 5.4.26
+* Updated phpMyAdmin to 4.1.9
+* Updated MySQL to 5.5.36
+
+Version 1.5.6.2-0      2014-01-20
+* Updated PrestaShop to 1.5.6.2
+* Updated phpMyAdmin to 4.1.4
+* Updated PHP to 5.4.24
+
+Version 1.5.6.1-2      2014-01-10
+* Fixed issue with bnconfig in Windows
+
+Version 1.5.6.1-1      2013-12-14
+* Updated phpMyAdmin to 4.1.0
+* Updated PHP to 5.4.23
+* Fixed issue with domains in the database
+
+Version 1.5.6.1-0      2013-11-21
+* Added appdomain and appurl features to bnconfig
+* Updated PrestaShop to 1.5.6.1
+* Updated PHP to 5.4.22
+* Updated phpMyAdmin to 4.0.9
+
+Version 1.5.6.0-0      2013-10-07
+* Updated PrestaShop to 1.5.6.0
+* Added PHP-FPM support for cloud images and VMs
+* Updated PHP to 5.4.20
+
+Version 1.5.5.0-0      2013-09-12
+* Updated PrestaShop to 1.5.5.0
+* Added fix for SSL domains in PrestaShop
+* Added Beetailer module for PrestaShop
+
+Version 1.5.4.1-1      2013-08-27
+* Updated PHP to 5.4.19
+* Improved mod_pagespeed settings for better performance (unix)
+
+Version 1.5.4.1-0      2013-08-13
+* Initial release, bundles Apache 2.4.6, MySQL 5.5.32, PHP 5.4.17 and PrestaShop 1.5.4.1

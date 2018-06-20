@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /home/lr26/prestashop-1.7.3.3-0/scripts/setenv.sh
+
+exec /home/lr26/prestashop-1.7.3.3-0/common/bin/.xmllint.bin  "$@"

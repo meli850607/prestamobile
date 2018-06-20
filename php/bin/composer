@@ -1,0 +1,4 @@
+#!/bin/sh
+. /home/lr26/prestashop-1.7.3.3-0/php/../scripts/setenv.sh
+
+exec /home/lr26/prestashop-1.7.3.3-0/php/bin/composer.phar "$@"

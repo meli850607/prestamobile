@@ -1,0 +1,159 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+ #wrapper{
+   background: #e4e5e6!important;
+ }
+
+ #products .product-description, .featured-products .product-description, .product-accessories .product-description, .product-miniature .product-description {
+    position: absolute;
+    z-index: 1;
+    width: 257px;
+    bottom: 0;
+    height: 70px;
+    background-color: rgb(192, 189, 193);
+}
+
+
+
+ #products .product-miniature .discount-amount, #products .product-miniature .discount-percentage, #products .product-miniature .on-sale, #products .product-miniature .online-only, #products .product-miniature .pack, #products .product-miniature .product-flags .new, .featured-products .product-miniature .discount-amount, .featured-products .product-miniature .discount-percentage, .featured-products .product-miniature .on-sale, .featured-products .product-miniature .online-only, .featured-products .product-miniature .pack, .featured-products .product-miniature .product-flags .new, .product-accessories .product-miniature .discount-amount, .product-accessories .product-miniature .discount-percentage, .product-accessories .product-miniature .on-sale, .product-accessories .product-miniature .online-only, .product-accessories .product-miniature .pack, .product-accessories .product-miniature .product-flags .new, .product-miniature .product-miniature .discount-amount, .product-miniature .product-miniature .discount-percentage, .product-miniature .product-miniature .on-sale, .product-miniature .product-miniature .online-only, .product-miniature .product-miniature .pack, .product-miniature .product-miniature .product-flags .new
+ {
+    display: block;
+    position: absolute;
+    left: -.4375rem;
+    padding: .3125rem .4375rem;
+    color: #fff;
+    background: #e72b75;
+    text-transform: uppercase;
+    min-width: 3.125rem;
+    min-height: 1.875rem;
+    font-size: 1rem;
+    font-weight: 600;
+    box-shadow: 2px 2px 4px 0 rgba(0,0,0,.2);
+}
+
+li.product-flag {
+    display: block;
+    position: absolute;
+    background: #e72b75!important;
+    font-weight: 700;
+    padding: .3125rem .4375rem;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: .625rem;
+    z-index: 2;
+    box-shadow: 2px 2px 4px 0 rgba(0,0,0,.2);
+
+}
+
+#header .header-nav {
+    border-bottom: #f1f1f100;
+    max-height: 0;
+    margin-bottom: 100px;
+  }
+
+.btn-primary {
+    color: #fff;
+    background-color: #3d3d3d;
+    border-color: transparent;
+}
+
+.product-price {
+    color: #b044b5;
+    display: inline-block;
+}
+
+
+#custom-text {
+    background: #e4e5e6;
+    border-radius: 2px;
+    margin-bottom: 1.5rem;
+    padding: 3.125rem;
+    text-align: center;
+}
+
+.product-quantity #quantity_wanted {
+    color: #fff;
+    background-color: #3d3d3d;
+    height: 2.75rem;
+    padding: .175rem .5rem;
+    width: 3rem;
+}
+
+.product-quantity .input-group-btn-vertical .btn {
+    padding: .5rem .6875rem;
+    background: #3d3d3d;
+    color: #fff;
+}
+
+.product-prices .tax-shipping-delivery-label {
+    font-size: .8125rem;
+    color: #000;
+}
+
+ #header {
+   background: linear-gradient(to bottom, #00416a, #e4e5e6); !important;
+   color: #000!important;
+ }
+ #header .header-top a[data-depth="0"] {
+    color: #000;
+    text-transform: uppercase;
+  }
+
+  .dropdown {
+    color: #000;
+    text-decoration: underline;
+}
+
+.dropdown .expand-more {
+    color: #000;
+}
+
+#header .header-nav .cart-preview .shopping-cart {
+    vertical-align: middle;
+    color: #e72b75;
+}
+
+#header .header-nav .blockcart {
+    background: transparent;
+  }
+
+  #header .header-nav .material-icons {
+    line-height: inherit;
+    color: #e72b75;
+}
+
+.footer-container li a {
+    color: #000;
+    cursor: pointer;
+    font-size: .875rem;
+}
+
+.block-contact {
+    border-left: 2px solid #3d3d3d;
+    padding-left: 3rem;
+    color: #000000;
+}
+
+.h1, .h2, .h3 {
+    text-transform: uppercase;
+    color: #b044b5;
+}
+
+#block_myaccount_infos .myaccount-title a {
+    color: #b044b5;
+}
+
+.block-contact .block-contact-title, .linklist .blockcms-title a {
+    color: #b044b5;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+ #footer {
+   background: linear-gradient(to bottom, #e4e5e6, #00416a)!important;
+ }

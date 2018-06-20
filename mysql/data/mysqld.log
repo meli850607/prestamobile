@@ -1,0 +1,1312 @@
+2018-06-19T07:49:19.017880Z mysqld_safe Logging to '/home/lr26/prestashop-1.7.3.3-0/mysql/data/mysqld.log'.
+2018-06-19T07:49:19.043494Z mysqld_safe Starting mysqld.bin daemon with databases from /home/lr26/prestashop-1.7.3.3-0/mysql/data
+2018-06-19T07:49:19.216508Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2018-06-19T07:49:19.216584Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-06-19T07:49:19.216606Z 0 [Note] /home/lr26/prestashop-1.7.3.3-0/mysql/bin/mysqld.bin (mysqld 5.7.22) starting as process 11397 ...
+2018-06-19T07:49:19.220229Z 0 [Note] InnoDB: PUNCH HOLE support available
+2018-06-19T07:49:19.220252Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-06-19T07:49:19.220257Z 0 [Note] InnoDB: Uses event mutexes
+2018-06-19T07:49:19.220262Z 0 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2018-06-19T07:49:19.220266Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-06-19T07:49:19.220270Z 0 [Note] InnoDB: Using Linux native AIO
+2018-06-19T07:49:19.220439Z 0 [Note] InnoDB: Number of pools: 1
+2018-06-19T07:49:19.220498Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2018-06-19T07:49:19.221428Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2018-06-19T07:49:19.227076Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-06-19T07:49:19.228386Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2018-06-19T07:49:19.240541Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-06-19T07:49:19.250872Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-06-19T07:49:19.250933Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-06-19T07:49:19.291475Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2018-06-19T07:49:19.292656Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2018-06-19T07:49:19.292672Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2018-06-19T07:49:19.293063Z 0 [Note] InnoDB: Waiting for purge to start
+2018-06-19T07:49:19.343238Z 0 [Note] InnoDB: 5.7.22 started; log sequence number 2589156
+2018-06-19T07:49:19.343439Z 0 [Note] InnoDB: Loading buffer pool(s) from /home/lr26/prestashop-1.7.3.3-0/mysql/data/ib_buffer_pool
+2018-06-19T07:49:19.343815Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2018-06-19T07:49:19.346345Z 0 [Note] InnoDB: Buffer pool(s) load completed at 180619  9:49:19
+2018-06-19T07:49:19.350429Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2018-06-19T07:49:19.350458Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3307
+2018-06-19T07:49:19.350486Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2018-06-19T07:49:19.350525Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2018-06-19T07:49:19.353784Z 0 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T07:49:19.353822Z 0 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T07:49:19.353841Z 0 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T07:49:19.353870Z 0 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T07:49:19.353881Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T07:49:19.353899Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T07:49:19.355022Z 0 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T07:49:19.355036Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T07:49:19.359471Z 0 [Note] Event Scheduler: Loaded 0 events
+2018-06-19T07:49:19.359610Z 0 [Note] /home/lr26/prestashop-1.7.3.3-0/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.7.22'  socket: '/home/lr26/prestashop-1.7.3.3-0/mysql/tmp/mysql.sock'  port: 3307  MySQL Community Server (GPL)
+2018-06-19T07:49:46.896144Z 4 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T07:49:46.896167Z 4 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T07:49:46.896175Z 4 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T07:49:46.896183Z 4 [Warning] 'user' entry 'bn_prestashop@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T07:49:46.896202Z 4 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T07:49:46.896208Z 4 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T07:49:46.896212Z 4 [Warning] 'db' entry 'bitnami_prestashop bn_prestashop@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T07:49:46.896223Z 4 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T07:49:46.896344Z 4 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T07:49:46.896354Z 4 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T07:50:24.830294Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2018-06-19T07:50:24.830316Z 0 [Note] Shutting down slave threads
+2018-06-19T07:50:24.830321Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2018-06-19T07:50:24.830327Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2018-06-19T07:50:24.830365Z 0 [Note] Binlog end
+2018-06-19T07:50:24.831914Z 0 [Note] Shutting down plugin 'ngram'
+2018-06-19T07:50:24.831943Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2018-06-19T07:50:24.831949Z 0 [Note] Shutting down plugin 'partition'
+2018-06-19T07:50:24.831955Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2018-06-19T07:50:24.831961Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2018-06-19T07:50:24.831984Z 0 [Note] Shutting down plugin 'CSV'
+2018-06-19T07:50:24.831990Z 0 [Note] Shutting down plugin 'MEMORY'
+2018-06-19T07:50:24.831996Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2018-06-19T07:50:24.832002Z 0 [Note] Shutting down plugin 'MyISAM'
+2018-06-19T07:50:24.832016Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2018-06-19T07:50:24.832022Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2018-06-19T07:50:24.832027Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2018-06-19T07:50:24.832032Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2018-06-19T07:50:24.832037Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2018-06-19T07:50:24.832041Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2018-06-19T07:50:24.832046Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2018-06-19T07:50:24.832051Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2018-06-19T07:50:24.832055Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2018-06-19T07:50:24.832060Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2018-06-19T07:50:24.832065Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2018-06-19T07:50:24.832070Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2018-06-19T07:50:24.832074Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2018-06-19T07:50:24.832079Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2018-06-19T07:50:24.832084Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2018-06-19T07:50:24.832089Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2018-06-19T07:50:24.832094Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2018-06-19T07:50:24.832099Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2018-06-19T07:50:24.832103Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2018-06-19T07:50:24.832108Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2018-06-19T07:50:24.832126Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2018-06-19T07:50:24.832132Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2018-06-19T07:50:24.832136Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2018-06-19T07:50:24.832141Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2018-06-19T07:50:24.832145Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2018-06-19T07:50:24.832150Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2018-06-19T07:50:24.832154Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2018-06-19T07:50:24.832159Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2018-06-19T07:50:24.832163Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2018-06-19T07:50:24.832168Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2018-06-19T07:50:24.832172Z 0 [Note] Shutting down plugin 'InnoDB'
+2018-06-19T07:50:24.832262Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2018-06-19T07:50:24.832332Z 0 [Note] InnoDB: Starting shutdown...
+2018-06-19T07:50:24.932480Z 0 [Note] InnoDB: Dumping buffer pool(s) to /home/lr26/prestashop-1.7.3.3-0/mysql/data/ib_buffer_pool
+2018-06-19T07:50:24.932905Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 180619  9:50:24
+2018-06-19T07:50:26.049406Z 0 [Note] InnoDB: Shutdown completed; log sequence number 9621720
+2018-06-19T07:50:26.052212Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-06-19T07:50:26.052233Z 0 [Note] Shutting down plugin 'sha256_password'
+2018-06-19T07:50:26.052240Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2018-06-19T07:50:26.052429Z 0 [Note] Shutting down plugin 'binlog'
+2018-06-19T07:50:26.052939Z 0 [Note] /home/lr26/prestashop-1.7.3.3-0/mysql/bin/mysqld.bin: Shutdown complete
+
+2018-06-19T07:50:26.100431Z mysqld_safe mysqld from pid file /home/lr26/prestashop-1.7.3.3-0/mysql/data/mysqld.pid ended
+2018-06-19T07:50:29.978360Z mysqld_safe Logging to '/home/lr26/prestashop-1.7.3.3-0/mysql/data/mysqld.log'.
+2018-06-19T07:50:30.007965Z mysqld_safe Starting mysqld.bin daemon with databases from /home/lr26/prestashop-1.7.3.3-0/mysql/data
+2018-06-19T07:50:30.176550Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2018-06-19T07:50:30.176610Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2018-06-19T07:50:30.176613Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2018-06-19T07:50:30.176635Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-06-19T07:50:30.176655Z 0 [Note] /home/lr26/prestashop-1.7.3.3-0/mysql/bin/mysqld.bin (mysqld 5.7.22) starting as process 11854 ...
+2018-06-19T07:50:30.180132Z 0 [Note] InnoDB: PUNCH HOLE support available
+2018-06-19T07:50:30.180153Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-06-19T07:50:30.180159Z 0 [Note] InnoDB: Uses event mutexes
+2018-06-19T07:50:30.180163Z 0 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2018-06-19T07:50:30.180168Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-06-19T07:50:30.180172Z 0 [Note] InnoDB: Using Linux native AIO
+2018-06-19T07:50:30.180338Z 0 [Note] InnoDB: Number of pools: 1
+2018-06-19T07:50:30.180397Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2018-06-19T07:50:30.181329Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2018-06-19T07:50:30.187232Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-06-19T07:50:30.188556Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2018-06-19T07:50:30.200379Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-06-19T07:50:30.217156Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-06-19T07:50:30.217227Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-06-19T07:50:30.252585Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2018-06-19T07:50:30.253603Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2018-06-19T07:50:30.253617Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2018-06-19T07:50:30.253957Z 0 [Note] InnoDB: Waiting for purge to start
+2018-06-19T07:50:30.304118Z 0 [Note] InnoDB: 5.7.22 started; log sequence number 9621720
+2018-06-19T07:50:30.304302Z 0 [Note] InnoDB: Loading buffer pool(s) from /home/lr26/prestashop-1.7.3.3-0/mysql/data/ib_buffer_pool
+2018-06-19T07:50:30.304523Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2018-06-19T07:50:30.308517Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2018-06-19T07:50:30.308543Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3307
+2018-06-19T07:50:30.308565Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2018-06-19T07:50:30.308597Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2018-06-19T07:50:30.327663Z 0 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T07:50:30.327713Z 0 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T07:50:30.327739Z 0 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T07:50:30.327763Z 0 [Warning] 'user' entry 'bn_prestashop@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T07:50:30.327811Z 0 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T07:50:30.327826Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T07:50:30.327838Z 0 [Warning] 'db' entry 'bitnami_prestashop bn_prestashop@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T07:50:30.327864Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T07:50:30.330551Z 0 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T07:50:30.330591Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T07:50:30.371104Z 0 [Note] Event Scheduler: Loaded 0 events
+2018-06-19T07:50:30.371346Z 0 [Note] /home/lr26/prestashop-1.7.3.3-0/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.7.22'  socket: '/home/lr26/prestashop-1.7.3.3-0/mysql/tmp/mysql.sock'  port: 3307  MySQL Community Server (GPL)
+2018-06-19T07:50:31.329019Z 0 [Note] InnoDB: Buffer pool(s) load completed at 180619  9:50:31
+
+Status information:
+
+Current dir: /home/lr26/prestashop-1.7.3.3-0/mysql/data/
+Running threads: 0  Stack size: 262144
+Current locks:
+lock: 0x1f04820:
+
+lock: 0x1f04740:
+
+lock: 0x1f04660:
+
+lock: 0x1f04580:
+
+lock: 0x1f044a0:
+
+lock: 0x1f043c0:
+
+lock: 0x1f042e0:
+
+lock: 0x1f04200:
+
+lock: 0x1f04120:
+
+lock: 0x1f04e40:
+
+lock: 0x1f01620:
+
+lock: 0x1f05700:
+
+lock: 0x1f05620:
+
+lock: 0x1f05540:
+
+lock: 0x1f05460:
+
+lock: 0x1f05380:
+
+lock: 0x1f052a0:
+
+lock: 0x1f051c0:
+
+lock: 0x1f050e0:
+
+lock: 0x1f02da0:
+
+lock: 0x1f04900:
+
+lock: 0x1f031e0:
+
+lock: 0x1f03100:
+
+lock: 0x1f03020:
+
+lock: 0x1f02f40:
+
+lock: 0x1f02e80:
+
+lock: 0x1f05000:
+
+lock: 0x1f04f20:
+
+lock: 0x1f03640:
+
+lock: 0x1f03560:
+
+lock: 0x1f03480:
+
+lock: 0x1f03800:
+
+lock: 0x1f00d60:
+
+lock: 0x1f04d60:
+
+lock: 0x1f01d20:
+
+lock: 0x1f01a80:
+
+lock: 0x1f01c40:
+
+lock: 0x1f019a0:
+
+lock: 0x1f01b60:
+
+lock: 0x1f02440:
+
+lock: 0x1f02380:
+
+lock: 0x1f022c0:
+
+lock: 0x1f01540:
+
+lock: 0x1f01460:
+
+lock: 0x1f018c0:
+
+lock: 0x1f01380:
+
+lock: 0x1f017e0:
+
+lock: 0x1f012a0:
+
+lock: 0x1f01700:
+
+lock: 0x1f021e0:
+
+lock: 0x1f02120:
+
+lock: 0x1f02060:
+
+lock: 0x1f011c0:
+
+lock: 0x1f00f20:
+
+lock: 0x1f010e0:
+
+lock: 0x1f00e40:
+
+lock: 0x1f01000:
+
+lock: 0x1f01f80:
+
+lock: 0x1f01ec0:
+
+lock: 0x1f01e00:
+
+lock: 0x1f049e0:
+
+lock: 0x1f04c80:
+
+lock: 0x1f04ba0:
+
+lock: 0x1f04ac0:
+
+lock: 0x1f03e00:
+
+lock: 0x1f03d20:
+
+lock: 0x1f03c40:
+
+lock: 0x1f03b60:
+
+lock: 0x1f03a80:
+
+lock: 0x1f03f80:
+
+lock: 0x1f039c0:
+
+lock: 0x1f038e0:
+
+lock: 0x1f03ec0:
+
+lock: 0x1f03720:
+
+lock: 0x1f032c0:
+
+lock: 0x1f033a0:
+
+lock: 0x1f02cc0:
+
+lock: 0x1f02be0:
+
+lock: 0x1f02860:
+
+lock: 0x1f02b00:
+
+lock: 0x1f02a20:
+
+lock: 0x1f02780:
+
+lock: 0x1f02940:
+
+lock: 0x1f026a0:
+
+lock: 0x1f025e0:
+
+lock: 0x1f02520:
+
+lock: 0x1f04040:
+
+
+Key caches:
+default
+Buffer_size:       8388608
+Block_size:           1024
+Division_limit:        100
+Age_limit:             300
+blocks used:             4
+not flushed:             0
+w_requests:              0
+writes:                  0
+r_requests:             16
+reads:                   7
+
+
+handler status:
+read_key:      3981365
+read_next:     2443844
+read_rnd        806815
+read_first:      47368
+write:         1035844
+delete            1986
+update:           8975
+
+Table status:
+Opened tables:       5271
+Open tables:         2000
+Open files:             0
+Open streams:           0
+
+Memory status:
+<malloc version="1">
+<heap nr="0">
+<sizes>
+							        <size from="17" to="32" total="192" count="6"/>
+							        <size from="33" to="48" total="192" count="4"/>
+							        <size from="49" to="64" total="320" count="5"/>
+							        <size from="65" to="80" total="160" count="2"/>
+							        <size from="97" to="112" total="336" count="3"/>
+							        <size from="33" to="33" total="165" count="5"/>
+							        <size from="49" to="49" total="245" count="5"/>
+							        <size from="97" to="97" total="3589" count="37"/>
+							        <size from="113" to="113" total="791" count="7"/>
+							        <size from="129" to="129" total="258" count="2"/>
+							        <size from="145" to="145" total="290" count="2"/>
+							        <size from="1009" to="1009" total="1009" count="1"/>
+							        <size from="1041" to="1041" total="11451" count="11"/>
+							        <size from="1137" to="1137" total="2274" count="2"/>
+							        <size from="1185" to="1185" total="1185" count="1"/>
+							        <size from="2081" to="2081" total="6243" count="3"/>
+							        <size from="2145" to="2145" total="2145" count="1"/>
+							        <size from="2321" to="2321" total="2321" count="1"/>
+							        <size from="2561" to="2561" total="2561" count="1"/>
+							        <size from="2833" to="2833" total="2833" count="1"/>
+							        <size from="3009" to="3009" total="3009" count="1"/>
+							        <size from="3489" to="3489" total="3489" count="1"/>
+							        <size from="4193" to="4529" total="22309" count="5"/>
+							        <size from="4625" to="4625" total="4625" count="1"/>
+							        <size from="5569" to="5569" total="61259" count="11"/>
+							        <size from="5649" to="5809" total="22916" count="4"/>
+							        <size from="6945" to="7041" total="27972" count="4"/>
+							        <size from="7761" to="7857" total="15618" count="2"/>
+							        <size from="8465" to="8465" total="8465" count="1"/>
+							        <size from="9809" to="10177" total="69415" count="7"/>
+							        <size from="10369" to="10529" total="20898" count="2"/>
+							        <size from="10977" to="11521" total="33651" count="3"/>
+							        <size from="12417" to="15553" total="161164" count="12"/>
+							        <size from="20897" to="23249" total="44146" count="2"/>
+							        <size from="30225" to="32033" total="62258" count="2"/>
+							        <size from="34193" to="34193" total="34193" count="1"/>
+  <unsorted from="33" to="43841" total="638590" count="350"/>
+</sizes>
+<total type="fast" count="20" size="1200"/>
+<total type="rest" count="489" size="1271337"/>
+<system type="current" size="12423168"/>
+<system type="max" size="12423168"/>
+<aspace type="total" size="12423168"/>
+<aspace type="mprotect" size="12423168"/>
+</heap>
+<heap nr="1">
+<sizes>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="0" size="0"/>
+<system type="current" size="1089536"/>
+<system type="max" size="1089536"/>
+<aspace type="total" size="1089536"/>
+<aspace type="mprotect" size="1089536"/>
+</heap>
+<heap nr="2">
+<sizes>
+							        <size from="33" to="48" total="48" count="1"/>
+							        <size from="49" to="64" total="64" count="1"/>
+							        <size from="65" to="80" total="80" count="1"/>
+							        <size from="81" to="96" total="96" count="1"/>
+</sizes>
+<total type="fast" count="4" size="288"/>
+<total type="rest" count="0" size="0"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+</heap>
+<heap nr="3">
+<sizes>
+							        <size from="33" to="48" total="96" count="2"/>
+							        <size from="49" to="64" total="192" count="3"/>
+							        <size from="33" to="33" total="561" count="17"/>
+							        <size from="49" to="49" total="98" count="2"/>
+							        <size from="65" to="65" total="390" count="6"/>
+							        <size from="81" to="81" total="405" count="5"/>
+							        <size from="97" to="97" total="388" count="4"/>
+							        <size from="113" to="113" total="565" count="5"/>
+							        <size from="129" to="129" total="645" count="5"/>
+							        <size from="145" to="145" total="145" count="1"/>
+							        <size from="161" to="161" total="1449" count="9"/>
+							        <size from="177" to="177" total="531" count="3"/>
+							        <size from="193" to="193" total="1737" count="9"/>
+							        <size from="209" to="209" total="836" count="4"/>
+							        <size from="225" to="225" total="900" count="4"/>
+							        <size from="241" to="241" total="964" count="4"/>
+							        <size from="257" to="257" total="1028" count="4"/>
+							        <size from="273" to="273" total="273" count="1"/>
+							        <size from="305" to="305" total="305" count="1"/>
+							        <size from="337" to="337" total="674" count="2"/>
+							        <size from="353" to="353" total="1059" count="3"/>
+							        <size from="369" to="369" total="1107" count="3"/>
+							        <size from="401" to="401" total="401" count="1"/>
+							        <size from="433" to="433" total="433" count="1"/>
+							        <size from="481" to="481" total="962" count="2"/>
+							        <size from="497" to="497" total="1988" count="4"/>
+							        <size from="513" to="513" total="1539" count="3"/>
+							        <size from="529" to="529" total="1058" count="2"/>
+							        <size from="561" to="561" total="561" count="1"/>
+							        <size from="593" to="593" total="1186" count="2"/>
+							        <size from="609" to="609" total="1218" count="2"/>
+							        <size from="625" to="625" total="3125" count="5"/>
+							        <size from="641" to="641" total="2564" count="4"/>
+							        <size from="657" to="657" total="1314" count="2"/>
+							        <size from="673" to="673" total="2019" count="3"/>
+							        <size from="689" to="689" total="2067" count="3"/>
+							        <size from="705" to="705" total="705" count="1"/>
+							        <size from="721" to="721" total="2884" count="4"/>
+							        <size from="737" to="737" total="1474" count="2"/>
+							        <size from="753" to="753" total="2259" count="3"/>
+							        <size from="769" to="769" total="769" count="1"/>
+							        <size from="785" to="785" total="785" count="1"/>
+							        <size from="833" to="833" total="1666" count="2"/>
+							        <size from="849" to="849" total="2547" count="3"/>
+							        <size from="865" to="865" total="865" count="1"/>
+							        <size from="881" to="881" total="2643" count="3"/>
+							        <size from="897" to="897" total="897" count="1"/>
+							        <size from="913" to="913" total="1826" count="2"/>
+							        <size from="929" to="929" total="2787" count="3"/>
+							        <size from="945" to="945" total="1890" count="2"/>
+							        <size from="961" to="961" total="1922" count="2"/>
+							        <size from="977" to="977" total="977" count="1"/>
+							        <size from="993" to="993" total="3972" count="4"/>
+							        <size from="1009" to="1009" total="2018" count="2"/>
+							        <size from="1025" to="1025" total="3075" count="3"/>
+							        <size from="2913" to="2913" total="2913" count="1"/>
+							        <size from="12353" to="16369" total="125929" count="9"/>
+							        <size from="17441" to="20369" total="94581" count="5"/>
+							        <size from="21825" to="24529" total="70467" count="3"/>
+							        <size from="25665" to="27729" total="80355" count="3"/>
+							        <size from="31025" to="31025" total="31025" count="1"/>
+							        <size from="33457" to="33457" total="33457" count="1"/>
+  <unsorted from="33" to="683313" total="966690" count="66"/>
+</sizes>
+<total type="fast" count="5" size="288"/>
+<total type="rest" count="257" size="1475873"/>
+<system type="current" size="5767168"/>
+<system type="max" size="5767168"/>
+<aspace type="total" size="5767168"/>
+<aspace type="mprotect" size="5767168"/>
+</heap>
+<heap nr="4">
+<sizes>
+							        <size from="17" to="32" total="64" count="2"/>
+							        <size from="33" to="48" total="384" count="8"/>
+							        <size from="49" to="64" total="832" count="13"/>
+							        <size from="65" to="80" total="80" count="1"/>
+							        <size from="81" to="96" total="192" count="2"/>
+							        <size from="97" to="112" total="336" count="3"/>
+							        <size from="33" to="33" total="1353" count="41"/>
+							        <size from="49" to="49" total="98" count="2"/>
+							        <size from="97" to="97" total="194" count="2"/>
+							        <size from="113" to="113" total="1356" count="12"/>
+							        <size from="129" to="129" total="903" count="7"/>
+							        <size from="145" to="145" total="1160" count="8"/>
+							        <size from="161" to="161" total="1932" count="12"/>
+							        <size from="177" to="177" total="177" count="1"/>
+							        <size from="193" to="193" total="1351" count="7"/>
+							        <size from="209" to="209" total="836" count="4"/>
+							        <size from="225" to="225" total="2025" count="9"/>
+							        <size from="241" to="241" total="1205" count="5"/>
+							        <size from="257" to="257" total="1285" count="5"/>
+							        <size from="273" to="273" total="819" count="3"/>
+							        <size from="305" to="305" total="915" count="3"/>
+							        <size from="353" to="353" total="353" count="1"/>
+							        <size from="369" to="369" total="1107" count="3"/>
+							        <size from="385" to="385" total="1540" count="4"/>
+							        <size from="401" to="401" total="802" count="2"/>
+							        <size from="417" to="417" total="1251" count="3"/>
+							        <size from="433" to="433" total="1732" count="4"/>
+							        <size from="449" to="449" total="2694" count="6"/>
+							        <size from="465" to="465" total="930" count="2"/>
+							        <size from="481" to="481" total="962" count="2"/>
+							        <size from="497" to="497" total="1491" count="3"/>
+							        <size from="513" to="513" total="513" count="1"/>
+							        <size from="529" to="529" total="2116" count="4"/>
+							        <size from="545" to="545" total="545" count="1"/>
+							        <size from="561" to="561" total="1122" count="2"/>
+							        <size from="577" to="577" total="2308" count="4"/>
+							        <size from="593" to="593" total="1779" count="3"/>
+							        <size from="609" to="609" total="4263" count="7"/>
+							        <size from="625" to="625" total="3125" count="5"/>
+							        <size from="641" to="641" total="641" count="1"/>
+							        <size from="657" to="657" total="1314" count="2"/>
+							        <size from="673" to="673" total="2692" count="4"/>
+							        <size from="705" to="705" total="705" count="1"/>
+							        <size from="737" to="737" total="2211" count="3"/>
+							        <size from="769" to="769" total="2307" count="3"/>
+							        <size from="785" to="785" total="2355" count="3"/>
+							        <size from="801" to="801" total="1602" count="2"/>
+							        <size from="817" to="817" total="2451" count="3"/>
+							        <size from="833" to="833" total="833" count="1"/>
+							        <size from="849" to="849" total="849" count="1"/>
+							        <size from="865" to="865" total="4325" count="5"/>
+							        <size from="881" to="881" total="1762" count="2"/>
+							        <size from="897" to="897" total="2691" count="3"/>
+							        <size from="913" to="913" total="2739" count="3"/>
+							        <size from="961" to="961" total="1922" count="2"/>
+							        <size from="993" to="993" total="8937" count="9"/>
+							        <size from="1009" to="1009" total="1009" count="1"/>
+							        <size from="1297" to="1297" total="1297" count="1"/>
+							        <size from="22993" to="23873" total="69859" count="3"/>
+							        <size from="24945" to="28289" total="105140" count="4"/>
+							        <size from="29377" to="29377" total="29377" count="1"/>
+							        <size from="37409" to="37409" total="37409" count="1"/>
+							        <size from="41169" to="55617" total="291158" count="6"/>
+							        <size from="100657" to="111809" total="212466" count="2"/>
+  <unsorted from="145" to="59553" total="206571" count="27"/>
+</sizes>
+<total type="fast" count="29" size="1888"/>
+<total type="rest" count="272" size="1038864"/>
+<system type="current" size="8101888"/>
+<system type="max" size="8101888"/>
+<aspace type="total" size="8101888"/>
+<aspace type="mprotect" size="8101888"/>
+</heap>
+<heap nr="5">
+<sizes>
+							        <size from="17" to="32" total="64" count="2"/>
+							        <size from="33" to="48" total="240" count="5"/>
+							        <size from="49" to="64" total="896" count="14"/>
+							        <size from="81" to="96" total="192" count="2"/>
+							        <size from="97" to="112" total="336" count="3"/>
+							        <size from="33" to="33" total="594" count="18"/>
+							        <size from="49" to="49" total="539" count="11"/>
+							        <size from="65" to="65" total="715" count="11"/>
+							        <size from="81" to="81" total="81" count="1"/>
+							        <size from="97" to="97" total="679" count="7"/>
+							        <size from="161" to="161" total="161" count="1"/>
+							        <size from="177" to="177" total="354" count="2"/>
+							        <size from="193" to="193" total="965" count="5"/>
+							        <size from="209" to="209" total="1672" count="8"/>
+							        <size from="225" to="225" total="2475" count="11"/>
+							        <size from="241" to="241" total="482" count="2"/>
+							        <size from="257" to="257" total="771" count="3"/>
+							        <size from="289" to="289" total="289" count="1"/>
+							        <size from="337" to="337" total="337" count="1"/>
+							        <size from="353" to="353" total="353" count="1"/>
+							        <size from="369" to="369" total="369" count="1"/>
+							        <size from="481" to="481" total="481" count="1"/>
+							        <size from="497" to="497" total="1491" count="3"/>
+							        <size from="529" to="529" total="1058" count="2"/>
+							        <size from="593" to="593" total="2372" count="4"/>
+							        <size from="609" to="609" total="1827" count="3"/>
+							        <size from="641" to="641" total="1282" count="2"/>
+							        <size from="657" to="657" total="3942" count="6"/>
+							        <size from="673" to="673" total="673" count="1"/>
+							        <size from="689" to="689" total="689" count="1"/>
+							        <size from="705" to="705" total="1410" count="2"/>
+							        <size from="721" to="721" total="2163" count="3"/>
+							        <size from="737" to="737" total="2211" count="3"/>
+							        <size from="801" to="801" total="1602" count="2"/>
+							        <size from="817" to="817" total="2451" count="3"/>
+							        <size from="833" to="833" total="2499" count="3"/>
+							        <size from="849" to="849" total="849" count="1"/>
+							        <size from="865" to="865" total="865" count="1"/>
+							        <size from="881" to="881" total="2643" count="3"/>
+							        <size from="913" to="913" total="2739" count="3"/>
+							        <size from="961" to="961" total="1922" count="2"/>
+							        <size from="977" to="977" total="1954" count="2"/>
+							        <size from="993" to="993" total="1986" count="2"/>
+							        <size from="1009" to="1009" total="2018" count="2"/>
+							        <size from="1025" to="1057" total="14526" count="14"/>
+							        <size from="1233" to="1233" total="1233" count="1"/>
+							        <size from="1313" to="1329" total="2642" count="2"/>
+							        <size from="1393" to="1393" total="1393" count="1"/>
+							        <size from="1473" to="1473" total="1473" count="1"/>
+							        <size from="1601" to="1601" total="1601" count="1"/>
+							        <size from="1681" to="1681" total="1681" count="1"/>
+							        <size from="1745" to="1777" total="3522" count="2"/>
+							        <size from="1921" to="1921" total="1921" count="1"/>
+							        <size from="2033" to="2033" total="8132" count="4"/>
+							        <size from="2081" to="2081" total="2081" count="1"/>
+							        <size from="2961" to="2961" total="2961" count="1"/>
+							        <size from="3457" to="3553" total="17493" count="5"/>
+							        <size from="3969" to="4017" total="16020" count="4"/>
+							        <size from="4273" to="4449" total="8722" count="2"/>
+							        <size from="4609" to="5057" total="19668" count="4"/>
+							        <size from="5185" to="5617" total="16115" count="3"/>
+							        <size from="5857" to="5857" total="5857" count="1"/>
+							        <size from="6417" to="6417" total="6417" count="1"/>
+							        <size from="6977" to="6977" total="6977" count="1"/>
+							        <size from="7505" to="7649" total="22707" count="3"/>
+							        <size from="8033" to="8033" total="8033" count="1"/>
+							        <size from="203921" to="203921" total="203921" count="1"/>
+  <unsorted from="49" to="137553" total="263533" count="29"/>
+</sizes>
+<total type="fast" count="26" size="1728"/>
+<total type="rest" count="224" size="690592"/>
+<system type="current" size="6062080"/>
+<system type="max" size="6062080"/>
+<aspace type="total" size="6062080"/>
+<aspace type="mprotect" size="6062080"/>
+</heap>
+<heap nr="6">
+<sizes>
+							        <size from="17" to="32" total="64" count="2"/>
+							        <size from="33" to="48" total="288" count="6"/>
+							        <size from="49" to="64" total="512" count="8"/>
+							        <size from="65" to="80" total="80" count="1"/>
+							        <size from="81" to="96" total="192" count="2"/>
+							        <size from="97" to="112" total="336" count="3"/>
+							        <size from="33" to="33" total="693" count="21"/>
+							        <size from="49" to="49" total="392" count="8"/>
+							        <size from="65" to="65" total="1040" count="16"/>
+							        <size from="81" to="81" total="405" count="5"/>
+							        <size from="97" to="97" total="97" count="1"/>
+							        <size from="113" to="113" total="565" count="5"/>
+							        <size from="129" to="129" total="774" count="6"/>
+							        <size from="145" to="145" total="1595" count="11"/>
+							        <size from="161" to="161" total="1288" count="8"/>
+							        <size from="177" to="177" total="531" count="3"/>
+							        <size from="193" to="193" total="3088" count="16"/>
+							        <size from="209" to="209" total="1463" count="7"/>
+							        <size from="225" to="225" total="1125" count="5"/>
+							        <size from="241" to="241" total="1687" count="7"/>
+							        <size from="257" to="257" total="2313" count="9"/>
+							        <size from="273" to="273" total="1092" count="4"/>
+							        <size from="289" to="289" total="1734" count="6"/>
+							        <size from="305" to="305" total="305" count="1"/>
+							        <size from="353" to="353" total="353" count="1"/>
+							        <size from="369" to="369" total="1107" count="3"/>
+							        <size from="385" to="385" total="770" count="2"/>
+							        <size from="417" to="417" total="1251" count="3"/>
+							        <size from="449" to="449" total="449" count="1"/>
+							        <size from="465" to="465" total="465" count="1"/>
+							        <size from="497" to="497" total="1491" count="3"/>
+							        <size from="513" to="513" total="513" count="1"/>
+							        <size from="529" to="529" total="1587" count="3"/>
+							        <size from="545" to="545" total="1635" count="3"/>
+							        <size from="577" to="577" total="1731" count="3"/>
+							        <size from="593" to="593" total="4151" count="7"/>
+							        <size from="609" to="609" total="3654" count="6"/>
+							        <size from="625" to="625" total="2500" count="4"/>
+							        <size from="641" to="641" total="641" count="1"/>
+							        <size from="657" to="657" total="657" count="1"/>
+							        <size from="673" to="673" total="2019" count="3"/>
+							        <size from="689" to="689" total="1378" count="2"/>
+							        <size from="705" to="705" total="2115" count="3"/>
+							        <size from="721" to="721" total="3605" count="5"/>
+							        <size from="737" to="737" total="2948" count="4"/>
+							        <size from="753" to="753" total="3012" count="4"/>
+							        <size from="769" to="769" total="769" count="1"/>
+							        <size from="785" to="785" total="3140" count="4"/>
+							        <size from="801" to="801" total="801" count="1"/>
+							        <size from="817" to="817" total="1634" count="2"/>
+							        <size from="833" to="833" total="1666" count="2"/>
+							        <size from="849" to="849" total="849" count="1"/>
+							        <size from="865" to="865" total="5190" count="6"/>
+							        <size from="881" to="881" total="881" count="1"/>
+							        <size from="897" to="897" total="2691" count="3"/>
+							        <size from="913" to="913" total="3652" count="4"/>
+							        <size from="929" to="929" total="929" count="1"/>
+							        <size from="961" to="961" total="961" count="1"/>
+							        <size from="993" to="993" total="3972" count="4"/>
+							        <size from="1009" to="1009" total="3027" count="3"/>
+							        <size from="1025" to="1041" total="2066" count="2"/>
+							        <size from="1233" to="1233" total="1233" count="1"/>
+							        <size from="1537" to="1553" total="3090" count="2"/>
+							        <size from="1841" to="1841" total="1841" count="1"/>
+							        <size from="1937" to="1937" total="1937" count="1"/>
+							        <size from="1985" to="2001" total="3986" count="2"/>
+							        <size from="2721" to="2721" total="2721" count="1"/>
+							        <size from="2945" to="2945" total="2945" count="1"/>
+							        <size from="3121" to="3121" total="3121" count="1"/>
+							        <size from="3745" to="3905" total="7650" count="2"/>
+							        <size from="4561" to="4561" total="4561" count="1"/>
+							        <size from="4673" to="4737" total="9410" count="2"/>
+							        <size from="5409" to="5569" total="16419" count="3"/>
+							        <size from="5745" to="5841" total="17411" count="3"/>
+							        <size from="7249" to="7569" total="14818" count="2"/>
+							        <size from="7681" to="8161" total="79850" count="10"/>
+							        <size from="8657" to="8657" total="8657" count="1"/>
+							        <size from="9009" to="9009" total="9009" count="1"/>
+							        <size from="10545" to="10705" total="21250" count="2"/>
+							        <size from="11969" to="12209" total="24178" count="2"/>
+							        <size from="12561" to="16369" total="74613" count="5"/>
+							        <size from="24721" to="24721" total="24721" count="1"/>
+							        <size from="40993" to="40993" total="40993" count="1"/>
+  <unsorted from="145" to="21425" total="131178" count="26"/>
+</sizes>
+<total type="fast" count="22" size="1472"/>
+<total type="rest" count="311" size="596039"/>
+<system type="current" size="6352896"/>
+<system type="max" size="6352896"/>
+<aspace type="total" size="6352896"/>
+<aspace type="mprotect" size="6352896"/>
+</heap>
+<heap nr="7">
+<sizes>
+							        <size from="33" to="48" total="48" count="1"/>
+							        <size from="49" to="64" total="64" count="1"/>
+</sizes>
+<total type="fast" count="2" size="112"/>
+<total type="rest" count="0" size="0"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+</heap>
+<heap nr="8">
+<sizes>
+							        <size from="17" to="32" total="64" count="2"/>
+							        <size from="33" to="48" total="240" count="5"/>
+							        <size from="49" to="64" total="512" count="8"/>
+							        <size from="65" to="80" total="80" count="1"/>
+							        <size from="81" to="96" total="192" count="2"/>
+							        <size from="97" to="112" total="336" count="3"/>
+							        <size from="33" to="33" total="297" count="9"/>
+							        <size from="65" to="65" total="65" count="1"/>
+							        <size from="97" to="97" total="194" count="2"/>
+							        <size from="161" to="161" total="483" count="3"/>
+							        <size from="177" to="177" total="354" count="2"/>
+							        <size from="193" to="193" total="1544" count="8"/>
+							        <size from="209" to="209" total="1254" count="6"/>
+							        <size from="225" to="225" total="450" count="2"/>
+							        <size from="241" to="241" total="1205" count="5"/>
+							        <size from="257" to="257" total="514" count="2"/>
+							        <size from="273" to="273" total="1092" count="4"/>
+							        <size from="289" to="289" total="1156" count="4"/>
+							        <size from="305" to="305" total="305" count="1"/>
+							        <size from="337" to="337" total="1348" count="4"/>
+							        <size from="353" to="353" total="706" count="2"/>
+							        <size from="369" to="369" total="1845" count="5"/>
+							        <size from="385" to="385" total="1925" count="5"/>
+							        <size from="401" to="401" total="802" count="2"/>
+							        <size from="449" to="449" total="898" count="2"/>
+							        <size from="465" to="465" total="930" count="2"/>
+							        <size from="481" to="481" total="481" count="1"/>
+							        <size from="497" to="497" total="1491" count="3"/>
+							        <size from="513" to="513" total="3591" count="7"/>
+							        <size from="529" to="529" total="3174" count="6"/>
+							        <size from="545" to="545" total="545" count="1"/>
+							        <size from="561" to="561" total="561" count="1"/>
+							        <size from="577" to="577" total="4039" count="7"/>
+							        <size from="593" to="593" total="4151" count="7"/>
+							        <size from="609" to="609" total="1218" count="2"/>
+							        <size from="625" to="625" total="2500" count="4"/>
+							        <size from="641" to="641" total="2564" count="4"/>
+							        <size from="657" to="657" total="1314" count="2"/>
+							        <size from="673" to="673" total="1346" count="2"/>
+							        <size from="689" to="689" total="1378" count="2"/>
+							        <size from="705" to="705" total="2820" count="4"/>
+							        <size from="737" to="737" total="2211" count="3"/>
+							        <size from="753" to="753" total="3012" count="4"/>
+							        <size from="769" to="769" total="3845" count="5"/>
+							        <size from="785" to="785" total="1570" count="2"/>
+							        <size from="801" to="801" total="1602" count="2"/>
+							        <size from="817" to="817" total="3268" count="4"/>
+							        <size from="833" to="833" total="1666" count="2"/>
+							        <size from="849" to="849" total="3396" count="4"/>
+							        <size from="865" to="865" total="2595" count="3"/>
+							        <size from="881" to="881" total="3524" count="4"/>
+							        <size from="897" to="897" total="1794" count="2"/>
+							        <size from="913" to="913" total="2739" count="3"/>
+							        <size from="945" to="945" total="4725" count="5"/>
+							        <size from="961" to="961" total="1922" count="2"/>
+							        <size from="977" to="977" total="2931" count="3"/>
+							        <size from="993" to="993" total="5958" count="6"/>
+							        <size from="1009" to="1009" total="3027" count="3"/>
+							        <size from="1025" to="1057" total="7223" count="7"/>
+							        <size from="1153" to="1185" total="2338" count="2"/>
+							        <size from="1953" to="1953" total="1953" count="1"/>
+							        <size from="2449" to="2449" total="4898" count="2"/>
+							        <size from="2513" to="2513" total="2513" count="1"/>
+							        <size from="2641" to="2641" total="2641" count="1"/>
+							        <size from="2769" to="2769" total="2769" count="1"/>
+							        <size from="3489" to="3489" total="3489" count="1"/>
+							        <size from="3953" to="4017" total="7970" count="2"/>
+							        <size from="4961" to="4961" total="4961" count="1"/>
+							        <size from="5361" to="5537" total="10898" count="2"/>
+							        <size from="7617" to="7617" total="7617" count="1"/>
+							        <size from="8049" to="8049" total="8049" count="1"/>
+							        <size from="25217" to="25217" total="25217" count="1"/>
+							        <size from="34017" to="34017" total="34017" count="1"/>
+							        <size from="37761" to="37761" total="37761" count="1"/>
+							        <size from="54513" to="58961" total="113474" count="2"/>
+							        <size from="65601" to="65601" total="65601" count="1"/>
+							        <size from="187089" to="187089" total="187089" count="1"/>
+  <unsorted from="145" to="17409" total="147434" count="26"/>
+</sizes>
+<total type="fast" count="21" size="1424"/>
+<total type="rest" count="237" size="776237"/>
+<system type="current" size="6426624"/>
+<system type="max" size="6426624"/>
+<aspace type="total" size="6426624"/>
+<aspace type="mprotect" size="6426624"/>
+</heap>
+<heap nr="9">
+<sizes>
+							        <size from="17" to="32" total="64" count="2"/>
+							        <size from="33" to="48" total="240" count="5"/>
+							        <size from="49" to="64" total="896" count="14"/>
+							        <size from="65" to="80" total="80" count="1"/>
+							        <size from="81" to="96" total="192" count="2"/>
+							        <size from="97" to="112" total="336" count="3"/>
+							        <size from="33" to="33" total="396" count="12"/>
+							        <size from="65" to="65" total="650" count="10"/>
+							        <size from="81" to="81" total="810" count="10"/>
+							        <size from="97" to="97" total="485" count="5"/>
+							        <size from="113" to="113" total="678" count="6"/>
+							        <size from="129" to="129" total="774" count="6"/>
+							        <size from="145" to="145" total="1450" count="10"/>
+							        <size from="161" to="161" total="966" count="6"/>
+							        <size from="177" to="177" total="531" count="3"/>
+							        <size from="193" to="193" total="1158" count="6"/>
+							        <size from="209" to="209" total="1254" count="6"/>
+							        <size from="225" to="225" total="1350" count="6"/>
+							        <size from="241" to="241" total="1928" count="8"/>
+							        <size from="257" to="257" total="1028" count="4"/>
+							        <size from="273" to="273" total="1092" count="4"/>
+							        <size from="289" to="289" total="1445" count="5"/>
+							        <size from="305" to="305" total="305" count="1"/>
+							        <size from="337" to="337" total="674" count="2"/>
+							        <size from="353" to="353" total="706" count="2"/>
+							        <size from="369" to="369" total="1476" count="4"/>
+							        <size from="385" to="385" total="1155" count="3"/>
+							        <size from="401" to="401" total="802" count="2"/>
+							        <size from="417" to="417" total="1251" count="3"/>
+							        <size from="449" to="449" total="898" count="2"/>
+							        <size from="465" to="465" total="3720" count="8"/>
+							        <size from="481" to="481" total="2405" count="5"/>
+							        <size from="497" to="497" total="2485" count="5"/>
+							        <size from="513" to="513" total="2052" count="4"/>
+							        <size from="529" to="529" total="3703" count="7"/>
+							        <size from="545" to="545" total="545" count="1"/>
+							        <size from="561" to="561" total="561" count="1"/>
+							        <size from="577" to="577" total="1731" count="3"/>
+							        <size from="593" to="593" total="2372" count="4"/>
+							        <size from="609" to="609" total="4872" count="8"/>
+							        <size from="625" to="625" total="1250" count="2"/>
+							        <size from="641" to="641" total="3205" count="5"/>
+							        <size from="657" to="657" total="5256" count="8"/>
+							        <size from="673" to="673" total="4038" count="6"/>
+							        <size from="689" to="689" total="5512" count="8"/>
+							        <size from="705" to="705" total="3525" count="5"/>
+							        <size from="721" to="721" total="1442" count="2"/>
+							        <size from="737" to="737" total="3685" count="5"/>
+							        <size from="753" to="753" total="2259" count="3"/>
+							        <size from="769" to="769" total="2307" count="3"/>
+							        <size from="785" to="785" total="3925" count="5"/>
+							        <size from="801" to="801" total="2403" count="3"/>
+							        <size from="817" to="817" total="1634" count="2"/>
+							        <size from="833" to="833" total="4165" count="5"/>
+							        <size from="865" to="865" total="5190" count="6"/>
+							        <size from="881" to="881" total="1762" count="2"/>
+							        <size from="897" to="897" total="1794" count="2"/>
+							        <size from="913" to="913" total="3652" count="4"/>
+							        <size from="929" to="929" total="929" count="1"/>
+							        <size from="945" to="945" total="945" count="1"/>
+							        <size from="961" to="961" total="3844" count="4"/>
+							        <size from="977" to="977" total="1954" count="2"/>
+							        <size from="993" to="993" total="3972" count="4"/>
+							        <size from="1009" to="1009" total="1009" count="1"/>
+							        <size from="1025" to="1025" total="7175" count="7"/>
+							        <size from="16369" to="16369" total="16369" count="1"/>
+							        <size from="31201" to="31201" total="31201" count="1"/>
+							        <size from="33185" to="36641" total="104835" count="3"/>
+							        <size from="41793" to="50305" total="92098" count="2"/>
+							        <size from="146977" to="146977" total="146977" count="1"/>
+  <unsorted from="145" to="25537" total="149866" count="26"/>
+</sizes>
+<total type="fast" count="27" size="1808"/>
+<total type="rest" count="302" size="665886"/>
+<system type="current" size="9297920"/>
+<system type="max" size="9297920"/>
+<aspace type="total" size="9297920"/>
+<aspace type="mprotect" size="9297920"/>
+</heap>
+<heap nr="10">
+<sizes>
+							        <size from="33" to="48" total="48" count="1"/>
+							        <size from="49" to="64" total="64" count="1"/>
+							        <size from="65" to="80" total="80" count="1"/>
+							        <size from="81" to="96" total="96" count="1"/>
+</sizes>
+<total type="fast" count="4" size="288"/>
+<total type="rest" count="0" size="0"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+</heap>
+<heap nr="11">
+<sizes>
+							        <size from="33" to="48" total="144" count="3"/>
+							        <size from="49" to="64" total="64" count="1"/>
+							        <size from="65" to="80" total="320" count="4"/>
+							        <size from="33" to="33" total="33" count="1"/>
+							        <size from="545" to="545" total="545" count="1"/>
+							        <size from="625" to="625" total="625" count="1"/>
+							        <size from="673" to="673" total="673" count="1"/>
+							        <size from="1265" to="1265" total="1265" count="1"/>
+							        <size from="1393" to="1393" total="1393" count="1"/>
+							        <size from="1729" to="1729" total="1729" count="1"/>
+							        <size from="16273" to="16273" total="16273" count="1"/>
+  <unsorted from="177" to="1329" total="1763" count="3"/>
+</sizes>
+<total type="fast" count="8" size="528"/>
+<total type="rest" count="11" size="24299"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+</heap>
+<heap nr="12">
+<sizes>
+							        <size from="17" to="32" total="64" count="2"/>
+							        <size from="33" to="48" total="432" count="9"/>
+							        <size from="49" to="64" total="768" count="12"/>
+							        <size from="65" to="80" total="80" count="1"/>
+							        <size from="81" to="96" total="192" count="2"/>
+							        <size from="97" to="112" total="336" count="3"/>
+							        <size from="33" to="33" total="2640" count="80"/>
+							        <size from="49" to="49" total="1225" count="25"/>
+							        <size from="65" to="65" total="5915" count="91"/>
+							        <size from="81" to="81" total="2106" count="26"/>
+							        <size from="97" to="97" total="4462" count="46"/>
+							        <size from="113" to="113" total="1921" count="17"/>
+							        <size from="129" to="129" total="3225" count="25"/>
+							        <size from="145" to="145" total="2320" count="16"/>
+							        <size from="161" to="161" total="1932" count="12"/>
+							        <size from="177" to="177" total="531" count="3"/>
+							        <size from="193" to="193" total="1544" count="8"/>
+							        <size from="209" to="209" total="1463" count="7"/>
+							        <size from="225" to="225" total="1125" count="5"/>
+							        <size from="241" to="241" total="964" count="4"/>
+							        <size from="257" to="257" total="514" count="2"/>
+							        <size from="273" to="273" total="273" count="1"/>
+							        <size from="289" to="289" total="867" count="3"/>
+							        <size from="305" to="305" total="305" count="1"/>
+							        <size from="369" to="369" total="738" count="2"/>
+							        <size from="385" to="385" total="1155" count="3"/>
+							        <size from="401" to="401" total="802" count="2"/>
+							        <size from="417" to="417" total="2502" count="6"/>
+							        <size from="433" to="433" total="2165" count="5"/>
+							        <size from="465" to="465" total="2790" count="6"/>
+							        <size from="481" to="481" total="962" count="2"/>
+							        <size from="497" to="497" total="994" count="2"/>
+							        <size from="513" to="513" total="1539" count="3"/>
+							        <size from="529" to="529" total="2116" count="4"/>
+							        <size from="545" to="545" total="1090" count="2"/>
+							        <size from="561" to="561" total="561" count="1"/>
+							        <size from="593" to="593" total="4151" count="7"/>
+							        <size from="609" to="609" total="1218" count="2"/>
+							        <size from="625" to="625" total="1250" count="2"/>
+							        <size from="641" to="641" total="1923" count="3"/>
+							        <size from="657" to="657" total="4599" count="7"/>
+							        <size from="673" to="673" total="673" count="1"/>
+							        <size from="689" to="689" total="2067" count="3"/>
+							        <size from="705" to="705" total="705" count="1"/>
+							        <size from="721" to="721" total="721" count="1"/>
+							        <size from="737" to="737" total="1474" count="2"/>
+							        <size from="769" to="769" total="2307" count="3"/>
+							        <size from="785" to="785" total="1570" count="2"/>
+							        <size from="801" to="801" total="801" count="1"/>
+							        <size from="817" to="817" total="1634" count="2"/>
+							        <size from="833" to="833" total="833" count="1"/>
+							        <size from="849" to="849" total="3396" count="4"/>
+							        <size from="865" to="865" total="2595" count="3"/>
+							        <size from="881" to="881" total="1762" count="2"/>
+							        <size from="897" to="897" total="2691" count="3"/>
+							        <size from="913" to="913" total="1826" count="2"/>
+							        <size from="929" to="929" total="929" count="1"/>
+							        <size from="945" to="945" total="945" count="1"/>
+							        <size from="961" to="961" total="3844" count="4"/>
+							        <size from="977" to="977" total="1954" count="2"/>
+							        <size from="993" to="993" total="4965" count="5"/>
+							        <size from="1009" to="1009" total="3027" count="3"/>
+							        <size from="1633" to="1633" total="1633" count="1"/>
+							        <size from="1665" to="1697" total="3362" count="2"/>
+							        <size from="1825" to="1825" total="1825" count="1"/>
+							        <size from="1873" to="1905" total="3778" count="2"/>
+							        <size from="1921" to="1953" total="3874" count="2"/>
+							        <size from="2001" to="2001" total="2001" count="1"/>
+							        <size from="3489" to="3489" total="10467" count="3"/>
+							        <size from="3793" to="4081" total="48060" count="12"/>
+							        <size from="4113" to="4577" total="91685" count="21"/>
+							        <size from="4849" to="5089" total="34855" count="7"/>
+							        <size from="5153" to="5569" total="21364" count="4"/>
+							        <size from="5905" to="6081" total="24036" count="4"/>
+							        <size from="6273" to="6305" total="12578" count="2"/>
+							        <size from="6977" to="6977" total="6977" count="1"/>
+							        <size from="7233" to="7233" total="7233" count="1"/>
+							        <size from="11409" to="12209" total="82967" count="7"/>
+							        <size from="12401" to="16369" total="300101" count="21"/>
+							        <size from="18689" to="20097" total="38786" count="2"/>
+							        <size from="20641" to="23665" total="174104" count="8"/>
+							        <size from="24785" to="28289" total="208904" count="8"/>
+							        <size from="31537" to="31889" total="63426" count="2"/>
+							        <size from="33201" to="35185" total="101747" count="3"/>
+							        <size from="37489" to="39713" total="77202" count="2"/>
+							        <size from="43761" to="53025" total="235093" count="5"/>
+							        <size from="133345" to="163121" total="1053223" count="7"/>
+							        <size from="169729" to="210225" total="932357" count="5"/>
+							        <size from="290641" to="345201" total="635842" count="2"/>
+							        <size from="545425" to="545425" total="545425" count="1"/>
+  <unsorted from="145" to="17153" total="126618" count="26"/>
+</sizes>
+<total type="fast" count="29" size="1872"/>
+<total type="rest" count="641" size="4954129"/>
+<system type="current" size="32419840"/>
+<system type="max" size="32419840"/>
+<aspace type="total" size="32419840"/>
+<aspace type="mprotect" size="32419840"/>
+</heap>
+<heap nr="13">
+<sizes>
+							        <size from="33" to="48" total="48" count="1"/>
+</sizes>
+<total type="fast" count="1" size="48"/>
+<total type="rest" count="0" size="0"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+</heap>
+<heap nr="14">
+<sizes>
+							        <size from="33" to="48" total="48" count="1"/>
+							        <size from="49" to="64" total="64" count="1"/>
+							        <size from="65" to="80" total="80" count="1"/>
+							        <size from="81" to="96" total="96" count="1"/>
+</sizes>
+<total type="fast" count="4" size="288"/>
+<total type="rest" count="0" size="0"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+</heap>
+<heap nr="15">
+<sizes>
+							        <size from="81" to="96" total="96" count="1"/>
+  <unsorted from="561" to="3265" total="3826" count="2"/>
+</sizes>
+<total type="fast" count="1" size="96"/>
+<total type="rest" count="2" size="3826"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+</heap>
+<heap nr="16">
+<sizes>
+							        <size from="97" to="112" total="112" count="1"/>
+</sizes>
+<total type="fast" count="1" size="112"/>
+<total type="rest" count="0" size="0"/>
+<system type="current" size="147456"/>
+<system type="max" size="147456"/>
+<aspace type="total" size="147456"/>
+<aspace type="mprotect" size="147456"/>
+</heap>
+<heap nr="17">
+<sizes>
+  <unsorted from="113" to="113" total="113" count="1"/>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="1" size="113"/>
+<system type="current" size="147456"/>
+<system type="max" size="147456"/>
+<aspace type="total" size="147456"/>
+<aspace type="mprotect" size="147456"/>
+</heap>
+<heap nr="18">
+<sizes>
+  <unsorted from="113" to="113" total="113" count="1"/>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="1" size="113"/>
+<system type="current" size="147456"/>
+<system type="max" size="147456"/>
+<aspace type="total" size="147456"/>
+<aspace type="mprotect" size="147456"/>
+</heap>
+<heap nr="19">
+<sizes>
+							        <size from="65" to="65" total="65" count="1"/>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="1" size="65"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+</heap>
+<heap nr="20">
+<sizes>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="0" size="0"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+</heap>
+<total type="fast" count="204" size="13440"/>
+<total type="rest" count="2749" size="11497373"/>
+<total type="mmap" count="66" size="191201280"/>
+<system type="current" size="89600000"/>
+<system type="max" size="89600000"/>
+<aspace type="total" size="89600000"/>
+<aspace type="mprotect" size="89600000"/>
+</malloc>
+
+
+
+Events status:
+LLA = Last Locked At  LUA = Last Unlocked At
+WOC = Waiting On Condition  DL = Data Locked
+
+Event scheduler status:
+State      : INITIALIZED
+Thread id  : 0
+LLA        : n/a:0
+LUA        : n/a:0
+WOC        : NO
+Workers    : 0
+Executed   : 0
+Data locked: NO
+
+Event queue status:
+Element count   : 0
+Data locked     : NO
+Attempting lock : NO
+LLA             : init_queue:96
+LUA             : init_queue:104
+WOC             : NO
+Next activation : never
+2018-06-19T14:59:57.890039Z 0 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T14:59:57.899297Z 0 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T14:59:57.899344Z 0 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T14:59:57.899358Z 0 [Warning] 'user' entry 'bn_prestashop@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T14:59:57.899398Z 0 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T14:59:57.899409Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T14:59:57.899416Z 0 [Warning] 'db' entry 'bitnami_prestashop bn_prestashop@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T14:59:57.899434Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T14:59:57.899799Z 0 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T14:59:57.899819Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-06-19T14:59:57.923383Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2018-06-19T14:59:57.923401Z 0 [Note] Shutting down slave threads
+2018-06-19T14:59:57.923407Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2018-06-19T14:59:57.923414Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2018-06-19T14:59:57.923465Z 0 [Note] Binlog end
+2018-06-19T14:59:57.923512Z 0 [Note] Shutting down plugin 'ngram'
+2018-06-19T14:59:57.923519Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2018-06-19T14:59:57.923524Z 0 [Note] Shutting down plugin 'partition'
+2018-06-19T14:59:57.923529Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2018-06-19T14:59:57.923535Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2018-06-19T14:59:57.923559Z 0 [Note] Shutting down plugin 'CSV'
+2018-06-19T14:59:57.923566Z 0 [Note] Shutting down plugin 'MEMORY'
+2018-06-19T14:59:57.923571Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2018-06-19T14:59:57.923577Z 0 [Note] Shutting down plugin 'MyISAM'
+2018-06-19T14:59:57.923587Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2018-06-19T14:59:57.923593Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2018-06-19T14:59:57.923597Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2018-06-19T14:59:57.923602Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2018-06-19T14:59:57.923607Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2018-06-19T14:59:57.923620Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2018-06-19T14:59:57.923625Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2018-06-19T14:59:57.923630Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2018-06-19T14:59:57.923635Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2018-06-19T14:59:57.923640Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2018-06-19T14:59:57.923644Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2018-06-19T14:59:57.923649Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2018-06-19T14:59:57.923654Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2018-06-19T14:59:57.923659Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2018-06-19T14:59:57.923663Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2018-06-19T14:59:57.923668Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2018-06-19T14:59:57.923673Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2018-06-19T14:59:57.923678Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2018-06-19T14:59:57.923682Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2018-06-19T14:59:57.923687Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2018-06-19T14:59:57.923691Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2018-06-19T14:59:57.923696Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2018-06-19T14:59:57.923701Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2018-06-19T14:59:57.923705Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2018-06-19T14:59:57.923710Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2018-06-19T14:59:57.923715Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2018-06-19T14:59:57.923719Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2018-06-19T14:59:57.923724Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2018-06-19T14:59:57.923729Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2018-06-19T14:59:57.923734Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2018-06-19T14:59:57.923739Z 0 [Note] Shutting down plugin 'InnoDB'
+2018-06-19T14:59:57.923784Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2018-06-19T14:59:57.923889Z 0 [Note] InnoDB: Starting shutdown...
+2018-06-19T14:59:58.024075Z 0 [Note] InnoDB: Dumping buffer pool(s) to /home/lr26/prestashop-1.7.3.3-0/mysql/data/ib_buffer_pool
+2018-06-19T14:59:58.024475Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 180619 16:59:58
+2018-06-19T14:59:59.438643Z 0 [Note] InnoDB: Shutdown completed; log sequence number 18308323
+2018-06-19T14:59:59.440346Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-06-19T14:59:59.440358Z 0 [Note] Shutting down plugin 'sha256_password'
+2018-06-19T14:59:59.440362Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2018-06-19T14:59:59.440489Z 0 [Note] Shutting down plugin 'binlog'
+2018-06-19T14:59:59.440884Z 0 [Note] /home/lr26/prestashop-1.7.3.3-0/mysql/bin/mysqld.bin: Shutdown complete
+
+2018-06-19T14:59:59.505416Z mysqld_safe mysqld from pid file /home/lr26/prestashop-1.7.3.3-0/mysql/data/mysqld.pid ended
+2018-06-20T07:31:37.422805Z mysqld_safe Logging to '/home/lr26/prestashop-1.7.3.3-0/mysql/data/mysqld.log'.
+2018-06-20T07:31:37.453137Z mysqld_safe Starting mysqld.bin daemon with databases from /home/lr26/prestashop-1.7.3.3-0/mysql/data
+2018-06-20T07:31:37.699148Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2018-06-20T07:31:37.699236Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2018-06-20T07:31:37.699240Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2018-06-20T07:31:37.699262Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-06-20T07:31:37.699284Z 0 [Note] /home/lr26/prestashop-1.7.3.3-0/mysql/bin/mysqld.bin (mysqld 5.7.22) starting as process 4998 ...
+2018-06-20T07:31:37.707985Z 0 [Note] InnoDB: PUNCH HOLE support available
+2018-06-20T07:31:37.708006Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-06-20T07:31:37.708011Z 0 [Note] InnoDB: Uses event mutexes
+2018-06-20T07:31:37.708016Z 0 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2018-06-20T07:31:37.708020Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-06-20T07:31:37.708024Z 0 [Note] InnoDB: Using Linux native AIO
+2018-06-20T07:31:37.708197Z 0 [Note] InnoDB: Number of pools: 1
+2018-06-20T07:31:37.708256Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2018-06-20T07:31:37.709238Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2018-06-20T07:31:37.715028Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-06-20T07:31:37.716323Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2018-06-20T07:31:37.733381Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-06-20T07:31:37.784980Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-06-20T07:31:37.785048Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-06-20T07:31:37.829256Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2018-06-20T07:31:37.830491Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2018-06-20T07:31:37.830509Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2018-06-20T07:31:37.831120Z 0 [Note] InnoDB: 5.7.22 started; log sequence number 18308323
+2018-06-20T07:31:37.831285Z 0 [Note] InnoDB: Loading buffer pool(s) from /home/lr26/prestashop-1.7.3.3-0/mysql/data/ib_buffer_pool
+2018-06-20T07:31:37.832009Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2018-06-20T07:31:37.842599Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2018-06-20T07:31:37.842634Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3307
+2018-06-20T07:31:37.842651Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2018-06-20T07:31:37.842690Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2018-06-20T07:31:37.855231Z 0 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2018-06-20T07:31:37.855261Z 0 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-06-20T07:31:37.855270Z 0 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-06-20T07:31:37.855277Z 0 [Warning] 'user' entry 'bn_prestashop@localhost' ignored in --skip-name-resolve mode.
+2018-06-20T07:31:37.855420Z 0 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-06-20T07:31:37.855432Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-06-20T07:31:37.855436Z 0 [Warning] 'db' entry 'bitnami_prestashop bn_prestashop@localhost' ignored in --skip-name-resolve mode.
+2018-06-20T07:31:37.855882Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2018-06-20T07:31:37.868311Z 0 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-06-20T07:31:37.868343Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-06-20T07:31:37.918423Z 0 [Note] InnoDB: Buffer pool(s) load completed at 180620  9:31:37
+2018-06-20T07:31:37.923525Z 0 [Note] Event Scheduler: Loaded 0 events
+2018-06-20T07:31:37.923733Z 0 [Note] /home/lr26/prestashop-1.7.3.3-0/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.7.22'  socket: '/home/lr26/prestashop-1.7.3.3-0/mysql/tmp/mysql.sock'  port: 3307  MySQL Community Server (GPL)

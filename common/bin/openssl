@@ -1,0 +1,10 @@
+#!/bin/sh
+LD_LIBRARY_PATH="/home/lr26/prestashop-1.7.3.3-0/common/lib:$LD_LIBRARY_PATH"
+DYLD_FALLBACK_LIBRARY_PATH="/home/lr26/prestashop-1.7.3.3-0/common/lib:$DYLD_FALLBACK_LIBRARY_PATH"
+OPENSSL_CONF="/home/lr26/prestashop-1.7.3.3-0/common/openssl/openssl.cnf"
+OPENSSL_ENGINES="/home/lr26/prestashop-1.7.3.3-0/common/lib/engines"
+export LD_LIBRARY_PATH
+export DYLD_FALLBACK_LIBRARY_PATH
+export OPENSSL_CONF
+export OPENSSL_ENGINES
+exec /home/lr26/prestashop-1.7.3.3-0/common/bin/openssl.bin "$@"

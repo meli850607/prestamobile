@@ -1,0 +1,8 @@
+#!/bin/sh
+
+PATH="/home/lr26/prestashop-1.7.3.3-0/varnish/bin:/home/lr26/prestashop-1.7.3.3-0/sqlite/bin:/home/lr26/prestashop-1.7.3.3-0/php/bin:/home/lr26/prestashop-1.7.3.3-0/mysql/bin:/home/lr26/prestashop-1.7.3.3-0/apache2/bin:/home/lr26/prestashop-1.7.3.3-0/common/bin:$PATH"
+BITNAMI_ROOT="/home/lr26/prestashop-1.7.3.3-0"
+export BITNAMI_ROOT
+
+
+exec /bin/bash --noprofile --norc
